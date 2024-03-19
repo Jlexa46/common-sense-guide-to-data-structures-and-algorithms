@@ -49,4 +49,13 @@ We can say that insertion in a worst scenario can take N+1 steps for an array co
 
 Deletion
 Deletion from an array is the process of eliminating the value at a particular index.
-Like insertion, the worst-casescenarion of deleting an element is deleting the very first element of the array. This is because index 0 would become empty, and we'd have to shift all the remaining elements to the left to fill the gap.
+Like insertion, the worst-case scenario of deleting an element is deleting the very first element of the array. This is because index 0 would become empty, and we'd have to shift all the remaining elements to the left to fill the gap.
+
+
+Sets
+A set is a data structure that does not allow duplicate values to be contained within it.
+Set are useful when you need to ensure that you don't have duplicate data.
+Reading from a set is exactly the same as reading from an array - it takes just one step for the computer to look up what's contained within a particular index.
+Searching a set also turns out to be no different than searching an array - it takes up to N steps to search for a value within a set.
+Deletion is also identical between a set and an array - it takes up to N steps to delete a value and move data to the left to close the gap.
+Insertion, however, is where arrays and sets diverge. Let's first explore inserting a value at the end of a set, which was a best-case scenario for an arrays.
